@@ -1,3 +1,7 @@
 What happens when you initialize a repository?  Why do you need to do it?
 
 -- A hidden .git directory is created.  You need it to set up the hidden file structure that contains the supporting files.  (Git clone takes care of the structure if you are copying or cloning an existing repository.)
+
+How is the staging area different from the working directory and the repository?  What value do you think it offers?
+
+-- Staging allows for group commits to be made, so that they can be done together (necessary because a significant change can involve a couple files at once.)  The value is that commits can be more accurate as to content and change.
