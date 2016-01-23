@@ -1,0 +1,28 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+-By isolating the lines on which differences were located and being able to do a character-bycharacter visual comparison.  Hundreds of lines may be exactly identical, so that cuts down the work by like, a lot.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+-Be being able to regress to an earlier, bug-free version of the code and start over at a known good point -- for instance.  Being able to trace just where certain lines of code were introduced.  Having an external 'memory' to check back on hundreds of lines of code.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+-Cons: forgetting because you get distracted or interrupted at the wrong time.  Pros: choosing most auspicious changes to record for orderly history access.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each separately?
+
+-Coding more likely to contain interelated, interactive changes, while Docs are likely to be standalone documents. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+- Log gives the overview of changes, with some commentary to hopefully identify the change that is being committed (hope that it is accurate).  Diff lets you zero in on the actual changes, the specifics of which may well be what is really needed for action.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+- Knowing that I can more easily discover just where something went south is important, especially because it is possible to break something without noticing it in a complex program.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+--It will make version control activity much much easier, plus I'm probably expected to know it for altogether too many jobs.
