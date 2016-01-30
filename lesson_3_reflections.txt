@@ -6,3 +6,8 @@ Why might you want to always pull changes manually rather than having Git automa
 
 -- Being able to determine when/what makes for more insightful commits and clean repositories that have workable code.
 
+Describe the difference between forks, clones and branches.  When would you use one instead of another?
+
+-- A branch is a variant within a depository.  A clone is a copy of a repository.  A fork is a cloned repository within Github, correctly attributing the originator of the base code, and pointing back to the original for research and comparison purposes.
+
+Branches will often be merged back to the master (or else become the master) but clones may go on to become their own identity.  Forks seem to be intended to be independent.
