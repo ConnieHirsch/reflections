@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+-- First, backups are your friends, since a local repository is a single point of failure.  Secondly, a remote repository opens up possibilities such as being able to share files with others, as well as being able to work from a second computer yourself.
+
